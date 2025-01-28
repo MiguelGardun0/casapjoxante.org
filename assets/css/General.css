@@ -1,0 +1,16 @@
+body{
+    font-family:"Poppins";
+    height:2000px;
+    background-color:#3E8D35;
+}
+
+
+/*Nav Bar*/
+
+.nvLogo{
+    height:2rem;
+}
+
+.navbar-brand {
+    margin-right: 10rem;
+}
