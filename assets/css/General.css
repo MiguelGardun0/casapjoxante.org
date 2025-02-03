@@ -397,5 +397,103 @@ body{
 
 
 
+  .methodology {
+    padding: 20px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .methodology .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .methodology-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .method-card {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .method-title, .method-description {
+    word-wrap: break-word;
+  }
+
+  .method-card {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.method-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.method-title, .method-description {
+    word-wrap: break-word;
+}
+  
+  /* ...existing code... */
+
+
+
+
+  section {
+    margin-bottom: 40px; /* Add space between sections */
+}
+
+.methodology {
+    padding: 40px 20px; /* Increased padding for more space */
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.methodology .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.methodology-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Increased gap for more space between cards */
+}
+
+.method-card {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.method-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.method-title, .method-description {
+    word-wrap: break-word;
+}
+
 
 
