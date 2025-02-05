@@ -73,6 +73,11 @@ body{
     padding: 4rem 2rem;
     margin-bottom: 2rem;
     text-align: center; /* Center all text */
+    background: linear-gradient(135deg, #C1DCAB, #8BC34A);
+    color: white;
+    overflow: hidden;
+    
+
 }
 
 .jumbotron h1 {
@@ -459,6 +464,7 @@ body{
 }
 
 .methodology {
+    margin-top:3rem;
     padding: 40px 20px; /* Increased padding for more space */
     max-width: 100%;
     overflow: hidden;
@@ -497,12 +503,19 @@ body{
 }
 
 .program{
-  background-color:rgb(193, 220, 171)
+  background: linear-gradient(135deg, #C1DCAB, #8BC34A);
 }
 
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Optional: Add some space above the image */
+}
 
-
-
-
+.image-complements {
+  max-width: 100%;
+  width: 70%;
+}
 
